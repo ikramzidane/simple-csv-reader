@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSV Reader</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <style>
+    body { 
+      font-family: 'Roboto', sans-serif;
+    }
+    #output {
+      margin-top: 30px;
+    }
+    thead td {
+      background-color: #eee;
+    }
+    td {
+      padding: 8px;
+    }
+
+  </style>
+</head>
+<body>
+  <h3>CSV Reader</h3>
+  <h5>Instruction: Select <em>.csv</em> file below and voila...</h5>
+
+  <input type="file" id="inputFileUpload", accept=".csv">
+
+  <div id="output"></div>
+
+  <script src="./main.js"></script>
+  
+</body>
+</html>
